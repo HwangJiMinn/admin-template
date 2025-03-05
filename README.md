@@ -4,21 +4,6 @@
 [Ajv](https://ajv.js.org/)가 포함되어 있으므로 데이터 구조의 유효성 검사는 [JSON schema](https://json-schema.org/) 형식을 사용하는 것을 권장합니다.
 데이터베이스는 MongoDB와 Redis를 사용할 수 있습니다. MongoDB는 [mongoose](https://mongoosejs.com/), Redis는 [ioredis](https://github.com/redis/ioredis)를 사용합니다.
 
-## 시작하기
-
-아래 `create-remix` 커맨드로 신규 리믹스 프로젝트를 시작합니다.
-
-```bash
-npx create-remix@latest --template crispy43/remix-mongodb
-```
-
-내부적으로 Yarn 패키지 매니저를 사용하기 때문에, 두번째 `deps   Install dependencies with npm?` 질문에서 No를 선택하고 패키지를 yarn 커맨드로 수동 설치해야 합니다.
-
-```bash
-  deps   Install dependencies with npm?
-         No
-```
-
 ## 설치
 
 로컬에 20버전 이상의 node.js가 설치되어 있어야합니다.
