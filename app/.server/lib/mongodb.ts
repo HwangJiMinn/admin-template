@@ -23,7 +23,7 @@ const MONGODB_URI = getEnv('MONGODB_URI');
 const connectionOptions = {
   bufferCommands: false,
   authSource: 'admin',
-  replicaSet: 'rs0',
+  // replicaSet: 'rs0',
 };
 
 export const db: Connection = mongoose.createConnection(

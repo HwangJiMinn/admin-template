@@ -81,7 +81,7 @@ export const login = async ({ request, user }: { request: Request; user: any }) 
 
   session.set(USER_SESSION_KEY, user);
 
-  return redirect('/mypage', {
+  return redirect('/', {
     status: 303,
     headers: {
       'Set-Cookie': await sessionStorage.commitSession(session, {
